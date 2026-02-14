@@ -1,5 +1,7 @@
 {
   "name": "mmmd",
+  "version": "0.0.1",
+  "description": "Render markdown in terminal, or generate scrolling terminal-style videos from markdown",
   "module": "index.ts",
   "type": "module",
   "scripts": {
