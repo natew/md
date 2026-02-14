@@ -1,5 +1,5 @@
 {
-  "name": "md",
+  "name": "mmmd",
   "module": "index.ts",
   "type": "module",
   "scripts": {
@@ -15,8 +15,11 @@
     "test": "bun test"
   },
   "bin": {
-    "md": "./index.ts",
-    "md-video": "./video.ts"
+    "mmmd": "./index.ts",
+    "mmmd-video": "./video.ts"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "devDependencies": {
     "@types/bun": "latest",

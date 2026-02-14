@@ -93,7 +93,7 @@ function parseAnsi(text: string): Span[] {
 }
 
 function usage(): string {
-  return `Usage: md <file.md> --video [opts]
+  return `Usage: mmmd <file.md> --video [opts]
   --size sm|md|lg  --aspect square|landscape|portrait  --padding sm|md|lg
   --cols <n>  --fps <n>  --font <name>  --quality <n>  --page-wait <secs>
   --overlap <lines>  --bg/--window/--border <color>  -o <output.mp4>`

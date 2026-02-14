@@ -4,7 +4,7 @@ import { readFileSync } from 'fs'
 import { resolve } from 'path'
 
 const args = process.argv.slice(2)
-const usage = 'Usage: md <file.md> [--video [-o output.mp4] [--bg "#color"]]'
+const usage = 'Usage: mmmd <file.md> [--video [-o output.mp4] [--bg "#color"]]'
 
 if (args.includes('-h') || args.includes('--help')) {
   console.log(usage)
